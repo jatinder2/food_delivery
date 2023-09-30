@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #FFF2EA;
+}
+nav{
+    width: 100vw;
+    margin: auto;
+}
+.menu>ul>li{
+    list-style-type: none !important;
+    display: inline-block;
+    padding: 10px;
+}
+.sign-in-btn{
+    background-color: #F94A3D;
+    color: #FFFFFF;
+    width: 109px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+.icon{
+    position: relative;
+    top: -5px;
+}
+.verticle-line{
+    position: relative;
+    top: 8px;
+    left: -30px;
+    width: 1px;
+    height: 25px;
+    display: inline-block;
+    background-color: #69697B1A;
+}
+
+.search-bar{
+    padding-left: 10px !important;
+    margin-right: 5px !important;
+    width: 260px;
+    background-color: white !important;
+    border-radius: 10px;
+    align-items: center;
+    border:2px solid #69697B1A;
+    height: 45px;
+
+}
+
+.search-bar>input{
+    border: none;
+}
+.hero-btn{
+    display: block;
+    background-color: #F94A3D;
+    color: #FFFFFF;
+    width: 109px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+.hero-section{
+    width: 85vw;
+    margin: auto;
+    margin-top: 110px !important;
+}
+.hero-p{
+    display: inline-block;
+    background-color:#FDECEC;
+    color: #F94A3D;
+    border:2px solid #69697B1A;
+    border-radius: 23px;
+    align-items: center;
+    padding-inline: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 10px;
+    height: 45px;
+}
+.description{
+    display: inline-block;
+    white-space: wrap;
+    width: 400px;
+}
+.why-best{
+    margin-top: 100px !important;
+    margin-inline: 60px;
+    padding-inline: 50px;
+}
+.first-col{
+    display: inline-block;
+    width: 200px;
+    margin-right: 20px;
+}
+.card>img{
+    height: 100px !important;
+    margin-top: 10px !important;
+}
+.cards{
+    text-align: left !important;
+    width: 200px !important;
+    padding-inline: 15px;
+    border-radius: 10px;
+}
+.categories>h2{
+    text-align: center;
+    margin-top: 40px;
+}
+.categories>ul>li{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 15px;
+}
+.btn_cart{
+    color: #F94A3D !important;
+    background-color: white !important;
+    border-color: #F94A3D;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    width: 150px;
+    padding-inline: 0px !important;
+}
